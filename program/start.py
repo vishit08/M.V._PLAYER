@@ -83,7 +83,7 @@ async def text_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "😍 Source Code", url="https://github.com/darkphoenix2601/M.V._PLAYER"
+                        "😍 Source Code", url="https://github.com/selfie-bd/M.V._PLAYER"
                     )
                 ],
             ]
@@ -152,7 +152,7 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("quick setup guide", url="https://t.me/Miss_Akshi_updates/16")
+                            InlineKeyboardButton("❤️ Quick setup guide", url="https://t.me/logdcbots/45")
                         ]
                     ]
                 )
