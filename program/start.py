@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 )
 async def text_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
+        f""" **Welcome {message.from_user.mention()} !**\n
 💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
@@ -83,7 +83,7 @@ async def text_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "😍 Source Code", url="https://github.com/selfie-bd/M.V._PLAYER"
+                        "OWNER😘", url="https://t.me/Tokkyyyooo"
                     )
                 ],
             ]
